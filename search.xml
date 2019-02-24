@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F02%2F24%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo文章发布加密.md]]></title>
+    <url>%2F2019%2F02%2F23%2Fhexo%E6%96%87%E7%AB%A0%E5%8F%91%E5%B8%83%E5%8A%A0%E5%AF%86-md%2F</url>
+    <content type="text"><![CDATA[最终效果图具体实现方法 打开themes-&gt;next-&gt;layout-&gt;_partials-&gt;head.swig文件,在以下位置插入这样一段代码： 代码如下： &lt;script&gt; (function () { if (&apos;{{ page.password }}&apos;) { if (prompt(&apos;请输入文章密码&apos;) !== &apos;{{ page.password }}&apos;) { alert(&apos;密码错误！&apos;); if (history.length === 1) { location.replace(&quot;http://xxxxxxx.xxx&quot;); // 这里替换成你的首页 } else { history.back(); } } } })(); &lt;/script&gt; 然后在文章上写成类似这样：]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[测试显示版权信息.md]]></title>
+    <url>%2F2019%2F02%2F23%2F%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BA%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF-md%2F</url>
+    <content type="text"><![CDATA[修改next/source/css/_common/components/post/post.styl文件，在最后一行增加代码： @import “my-post-copyright”保存重新生成即可。如果要在该博文下面增加版权信息的显示，需要在 Markdown 中增加copyright: true的设置，类似： 小技巧：如果你觉得每次都要输入copyright: true很麻烦的话,那么在/scaffolds/post.md文件中添加： 这样每次hexo new “你的内容”之后，生成的md文件会自动把copyright:加到里面去(注意：如果解析出来之后，你的原始链接有问题：如：http://yoursite.com/前端小项目：使用canvas绘画哆啦A梦.html,那么在根目录下_config.yml中写成类似这样：）就行了。]]></content>
+      <categories>
+        <category>hexo博客搭建</category>
+      </categories>
+      <tags>
+        <tag>copyright</tag>
+      </tags>
+  </entry>
+</search>
