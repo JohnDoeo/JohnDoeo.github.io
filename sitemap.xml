@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://johndoeo.github.io/photos/index.html</loc>
+    
+    <lastmod>2019-02-25T15:21:29.113Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://johndoeo.github.io/photos/index.html</loc>
+    
+    <lastmod>2019-02-25T15:20:54.912Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://johndoeo.github.io/2019/02/26/hexo%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E7%9B%B8%E5%86%8C%E5%8A%9F%E8%83%BD/</loc>
+    
+    <lastmod>2019-02-25T13:40:46.758Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://johndoeo.github.io/about/index.html</loc>
     
     <lastmod>2019-02-24T13:23:29.785Z</lastmod>
@@ -23,21 +44,7 @@
   </url>
   
   <url>
-    <loc>https://johndoeo.github.io/archives/index.html</loc>
-    
-    <lastmod>2019-02-23T05:11:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://johndoeo.github.io/README.html</loc>
-    
-    <lastmod>2019-02-23T05:11:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://johndoeo.github.io/404/index.html</loc>
     
     <lastmod>2019-02-23T05:11:56.000Z</lastmod>
     
@@ -51,7 +58,7 @@
   </url>
   
   <url>
-    <loc>https://johndoeo.github.io/2019/02/23/%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BA%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF-md/</loc>
+    <loc>https://johndoeo.github.io/archives/index.html</loc>
     
     <lastmod>2019-02-23T05:11:56.000Z</lastmod>
     
@@ -65,21 +72,14 @@
   </url>
   
   <url>
-    <loc>https://johndoeo.github.io/photos/index.html</loc>
-    
-    <lastmod>2019-02-23T05:11:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://johndoeo.github.io/photos/index.html</loc>
-    
-    <lastmod>2019-02-23T05:11:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://johndoeo.github.io/schedule/index.html</loc>
+    
+    <lastmod>2019-02-23T05:11:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://johndoeo.github.io/2019/02/23/%E6%B5%8B%E8%AF%95%E6%98%BE%E7%A4%BA%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF-md/</loc>
     
     <lastmod>2019-02-23T05:11:56.000Z</lastmod>
     
@@ -100,7 +100,7 @@
   </url>
   
   <url>
-    <loc>https://johndoeo.github.io/photos/ins.json</loc>
+    <loc>https://johndoeo.github.io/404/index.html</loc>
     
     <lastmod>2019-02-23T05:11:56.000Z</lastmod>
     

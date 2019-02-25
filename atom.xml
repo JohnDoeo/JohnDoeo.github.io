@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://johndoeo.github.io/"/>
-  <updated>2019-02-24T02:23:06.023Z</updated>
+  <updated>2019-02-25T13:40:46.758Z</updated>
   <id>https://johndoeo.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo主题添加相册功能</title>
+    <link href="https://johndoeo.github.io/2019/02/26/hexo%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E7%9B%B8%E5%86%8C%E5%8A%9F%E8%83%BD/"/>
+    <id>https://johndoeo.github.io/2019/02/26/hexo主题添加相册功能/</id>
+    <published>2019-02-25T21:29:08.000Z</published>
+    <updated>2019-02-25T13:40:46.758Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>插入一个如片试试看<br><img src="效果图.gif" alt="这是测试"></p><p>博客原链接：<a href="https://asdfv1929.github.io/2018/05/26/next-add-photos/" target="_blank" rel="noopener">https://asdfv1929.github.io/2018/05/26/next-add-photos/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="next主题" scheme="https://johndoeo.github.io/tags/next%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
