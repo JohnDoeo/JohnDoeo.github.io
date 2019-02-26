@@ -108,14 +108,14 @@
 <meta property="og:site_name" content="JohnDoeo&#39;Blog">
 <meta property="og:description" content="最终效果图具体实现方法 打开themes-&amp;gt;next-&amp;gt;layout-&amp;gt;_partials-&amp;gt;head.swig文件,在以下位置插入这样一段代码： 代码如下： &amp;lt;script&amp;gt;     (function () {         if (&amp;apos;{{ page.password }}&amp;apos;) {             if (prompt(&amp;apo">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://johndoeo.github.io/2019/02/23/hexo文章发布加密-md/hexo文章发布加密-md/效果图.gif">
-<meta property="og:image" content="https://johndoeo.github.io/2019/02/23/hexo文章发布加密-md/hexo文章发布加密-md/添加代码位置.png">
-<meta property="og:image" content="https://johndoeo.github.io/2019/02/23/hexo文章发布加密-md/hexo文章发布加密-md/生成文章.png">
-<meta property="og:updated_time" content="2019-02-23T05:11:56.000Z">
+<meta property="og:image" content="https://johndoeo.github.io/2019/02/23/hexo文章发布加密-md/效果图.gif">
+<meta property="og:image" content="https://johndoeo.github.io/2019/02/23/hexo文章发布加密-md/添加代码位置.png">
+<meta property="og:image" content="https://johndoeo.github.io/2019/02/23/hexo文章发布加密-md/生成文章.png">
+<meta property="og:updated_time" content="2019-02-26T12:37:51.630Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo文章发布加密.md">
 <meta name="twitter:description" content="最终效果图具体实现方法 打开themes-&amp;gt;next-&amp;gt;layout-&amp;gt;_partials-&amp;gt;head.swig文件,在以下位置插入这样一段代码： 代码如下： &amp;lt;script&amp;gt;     (function () {         if (&amp;apos;{{ page.password }}&amp;apos;) {             if (prompt(&amp;apo">
-<meta name="twitter:image" content="https://johndoeo.github.io/2019/02/23/hexo文章发布加密-md/hexo文章发布加密-md/效果图.gif">
+<meta name="twitter:image" content="https://johndoeo.github.io/2019/02/23/hexo文章发布加密-md/效果图.gif">
 
 
 
@@ -144,8 +144,8 @@
 </script>
 <script>
     (function () {
-        if ('123456') {
-            if (prompt('请输入文章密码') !== '123456') {
+        if ('') {
+            if (prompt('请输入文章密码') !== '') {
                 alert('密码错误！');
                 if (history.length === 1) {
                     location.replace("http://localhost:4000"); // 这里替换成你的首页
@@ -529,10 +529,10 @@ var _hmt = _hmt || [];
       
 
       
-        <h1 id="最终效果图"><a href="#最终效果图" class="headerlink" title="最终效果图"></a>最终效果图</h1><p><img src="hexo文章发布加密-md/效果图.gif" alt="实现效果"><br>具体实现方法</p>
-<p>打开themes-&gt;next-&gt;layout-&gt;_partials-&gt;head.swig文件,在以下位置插入这样一段代码：<br><img src="hexo文章发布加密-md/添加代码位置.png" alt="代码位置"></p>
+        <h1 id="最终效果图"><a href="#最终效果图" class="headerlink" title="最终效果图"></a>最终效果图</h1><p><img src="效果图.gif" alt="实现效果"><br>具体实现方法</p>
+<p>打开themes-&gt;next-&gt;layout-&gt;_partials-&gt;head.swig文件,在以下位置插入这样一段代码：<br><img src="添加代码位置.png" alt="代码位置"></p>
 <p>代码如下：</p>
-<pre><code>&lt;script&gt;
+<pre><code class="`">&lt;script&gt;
     (function () {
         if (&apos;{{ page.password }}&apos;) {
             if (prompt(&apos;请输入文章密码&apos;) !== &apos;{{ page.password }}&apos;) {
@@ -546,7 +546,8 @@ var _hmt = _hmt || [];
         }
     })();
 &lt;/script&gt;
-</code></pre><p>然后在文章上写成类似这样：<br><img src="hexo文章发布加密-md/生成文章.png" alt="生成文章类型"></p>
+</code></pre>
+<p>然后在文章上写成类似这样：<br><img src="生成文章.png" alt="生成文章类型"></p>
 
       
     </div>
@@ -611,7 +612,7 @@ var _hmt = _hmt || [];
   </li>
   <li class="post-copyright-update">
       <strong>最后更新：</strong>
-      2019年02月23日 - 13:11
+      2019年02月26日 - 20:37
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
