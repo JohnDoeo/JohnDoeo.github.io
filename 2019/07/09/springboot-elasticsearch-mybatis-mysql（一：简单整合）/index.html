@@ -100,17 +100,19 @@
 
 
 
-<meta name="description" content="Ins 	摄影   	图片来自instagram，正在加载中…     (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChi">
-<meta property="og:type" content="website">
-<meta property="og:title" content="相册">
-<meta property="og:url" content="https://johndoeo.github.io/photos/index.html">
+<meta name="description" content="@TOC 参考文章：spring boot2 + mybatis + elasticsearch + mysql 整合（1）——项目搭建与测试springboot+es的四种方式1：通过intellij搭建springboot的项目：不多说（需要注意的是要在项目中选中web模块、sql中的jdbc、mysql、mybatis以及nosql中的elasticsearch模块）创建完成的项目结构如下：">
+<meta property="og:type" content="article">
+<meta property="og:title" content="springboot+elasticsearch+mybatis+mysql（一：简单整合）">
+<meta property="og:url" content="https://johndoeo.github.io/2019/07/09/springboot-elasticsearch-mybatis-mysql（一：简单整合）/index.html">
 <meta property="og:site_name" content="JohnDoeo&#39;Blog">
-<meta property="og:description" content="Ins 	摄影   	图片来自instagram，正在加载中…     (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChi">
+<meta property="og:description" content="@TOC 参考文章：spring boot2 + mybatis + elasticsearch + mysql 整合（1）——项目搭建与测试springboot+es的四种方式1：通过intellij搭建springboot的项目：不多说（需要注意的是要在项目中选中web模块、sql中的jdbc、mysql、mybatis以及nosql中的elasticsearch模块）创建完成的项目结构如下：">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-02-25T15:21:29.113Z">
+<meta property="og:image" content="https://johndoeo.github.io/2019/07/09/springboot-elasticsearch-mybatis-mysql（一：简单整合）/springboot-elasticsearch-mybatis-mysql（一：简单整合）/项目结构.jpg">
+<meta property="og:updated_time" content="2019-07-08T09:22:54.216Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="相册">
-<meta name="twitter:description" content="Ins 	摄影   	图片来自instagram，正在加载中…     (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChi">
+<meta name="twitter:title" content="springboot+elasticsearch+mybatis+mysql（一：简单整合）">
+<meta name="twitter:description" content="@TOC 参考文章：spring boot2 + mybatis + elasticsearch + mysql 整合（1）——项目搭建与测试springboot+es的四种方式1：通过intellij搭建springboot的项目：不多说（需要注意的是要在项目中选中web模块、sql中的jdbc、mysql、mybatis以及nosql中的elasticsearch模块）创建完成的项目结构如下：">
+<meta name="twitter:image" content="https://johndoeo.github.io/2019/07/09/springboot-elasticsearch-mybatis-mysql（一：简单整合）/springboot-elasticsearch-mybatis-mysql（一：简单整合）/项目结构.jpg">
 
 
 
@@ -154,13 +156,13 @@
 
 
 
-  <link rel="canonical" href="https://johndoeo.github.io/photos/">
+  <link rel="canonical" href="https://johndoeo.github.io/2019/07/09/springboot-elasticsearch-mybatis-mysql（一：简单整合）/">
 
 
 
 
 
-  <title>相册 | JohnDoeo'Blog</title>
+  <title>springboot+elasticsearch+mybatis+mysql（一：简单整合） | JohnDoeo'Blog</title>
   
 
 
@@ -381,7 +383,7 @@ var _hmt = _hmt || [];
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://johndoeo.github.io/photos/index.html">
+    <link itemprop="mainEntityOfPage" href="https://johndoeo.github.io/2019/07/09/springboot-elasticsearch-mybatis-mysql（一：简单整合）/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -398,7 +400,7 @@ var _hmt = _hmt || [];
 
         
         
-          <h1 class="post-title" itemprop="name headline">相册</h1>
+          <h1 class="post-title" itemprop="name headline">springboot+elasticsearch+mybatis+mysql（一：简单整合）</h1>
         
 
         <div class="post-meta">
@@ -410,8 +412,8 @@ var _hmt = _hmt || [];
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-02-25T23:21:29+08:00">
-                2019-02-25
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-08T17:19:39Z">
+                2019-07-08
               </time>
             
 
@@ -430,8 +432,8 @@ var _hmt = _hmt || [];
                 <i class="fa fa-comment-o"></i>
               </span>
               
-                <a href="/photos/index.html#SOHUCS" itemprop="discussionUrl">
-                  <span id="url::https://johndoeo.github.io/photos/index.html" class="cy_cmt_count" data-xid="photos/index.html" itemprop="commentsCount"></span>
+                <a href="/2019/07/09/springboot-elasticsearch-mybatis-mysql（一：简单整合）/#SOHUCS" itemprop="discussionUrl">
+                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2019/07/09/springboot-elasticsearch-mybatis-mysql（一：简单整合）/" itemprop="commentsCount"></span>
                 </a>
               
             
@@ -439,7 +441,7 @@ var _hmt = _hmt || [];
 
           
           
-             <span id="/photos/index.html" class="leancloud_visitors" data-flag-title="相册">
+             <span id="/2019/07/09/springboot-elasticsearch-mybatis-mysql（一：简单整合）/" class="leancloud_visitors" data-flag-title="springboot+elasticsearch+mybatis+mysql（一：简单整合）">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -465,7 +467,7 @@ var _hmt = _hmt || [];
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  39
+                  2.3k
                 </span>
               
 
@@ -481,7 +483,7 @@ var _hmt = _hmt || [];
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  12
                 </span>分钟
               
             </div>
@@ -502,26 +504,27 @@ var _hmt = _hmt || [];
       
 
       
-        <link rel="stylesheet" href="./ins.css">
-<div class="photos-btn-wrap">
-	<a class="photos-btn active" href="/photos/">Ins</a>
-	<a class="photos-btn" target="_blank" href>摄影</a>
-</div>
-<div class="instagram itemscope">
-	<a href="https://www.instagram.com/litten225/" target="_blank" class="open-ins">图片来自instagram，正在加载中…</a>
-</div>
-<script>
-  (function() {
-    var loadScript = function(path) {
-      var $script = document.createElement('script')
-      document.getElementsByTagName('body')[0].appendChild($script)
-      $script.setAttribute('src', path)
-    }
-    setTimeout(function() {
-      loadScript('./ins.js')
-    }, 0)
-  })()
-</script>
+        <p>@<a href="springboot+elasticsearch+mybatis+mysql初探">TOC</a></p>
+<p>参考文章：<a href="https://blog.csdn.net/m0_38084243/article/details/80585756" target="_blank" rel="noopener">spring boot2 + mybatis + elasticsearch + mysql 整合（1）——项目搭建与测试</a><br><a href="https://www.cnblogs.com/cjsblog/p/9756978.html" target="_blank" rel="noopener">springboot+es的四种方式</a><br>1：通过intellij搭建springboot的项目：<br>不多说（需要注意的是要在项目中选中web模块、sql中的jdbc、mysql、mybatis以及nosql中的elasticsearch模块）<br>创建完成的项目结构如下：<br><img src="springboot-elasticsearch-mybatis-mysql（一：简单整合）/项目结构.jpg" alt="项目结构"><br>2：application.yml配置文件：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">server:</span><br><span class="line">  port: 8080</span><br><span class="line">  tomcat:</span><br><span class="line">    uri-encoding: UTF-8</span><br><span class="line"></span><br><span class="line">spring:</span><br><span class="line">  data:</span><br><span class="line">    elasticsearch:</span><br><span class="line">      repositories:</span><br><span class="line">        enabled: true</span><br><span class="line">      cluster-name: elasticsearch</span><br><span class="line">      cluster-nodes: localhost:9300</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 日志配置</span><br><span class="line">logging:</span><br><span class="line">  config: classpath:logback.xml</span><br><span class="line">  # 日志输出根路径</span><br><span class="line">  exportPath: d://springboot-es/logs</span><br><span class="line">  level:</span><br><span class="line">    com.johndoeo.demo: debug</span><br><span class="line">    org.springframework: WARN</span><br><span class="line">    org.spring.springboot.dao: debug</span><br></pre></td></tr></table></figure>
+<p>TestController.java</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">package com.johndoeo.demo.controller;</span><br><span class="line"></span><br><span class="line">import org.springframework.stereotype.Controller;</span><br><span class="line">import org.springframework.web.bind.annotation.RequestMapping;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> *@ClassName:TestController</span><br><span class="line"> *@Descreption: TODO</span><br><span class="line"> *@Author: JohnDoeo</span><br><span class="line"> *@Date: 2019/7/3 10:26</span><br><span class="line"> */</span><br><span class="line">@Controller</span><br><span class="line">public class TestController &#123;</span><br><span class="line">    @RequestMapping(&quot;/hello&quot;)</span><br><span class="line">    public String test()&#123;</span><br><span class="line">        return &quot;hello es&quot;;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>接下来启动项目，会报错，内容如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br></pre></td><td class="code"><pre><span class="line">Logging system failed to initialize using configuration from &apos;classpath:logback.xml&apos;</span><br><span class="line">java.lang.IllegalStateException: Logback configuration error detected: </span><br><span class="line">ERROR in ch.qos.logback.core.joran.spi.Interpreter@3:82 - no applicable action for [springProperty], current ElementPath  is [[configuration][springProperty]]</span><br><span class="line">	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:166)</span><br><span class="line">	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:65)</span><br><span class="line">	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:56)</span><br><span class="line">	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)</span><br><span class="line">	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:284)</span><br><span class="line">	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:254)</span><br><span class="line">	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:219)</span><br><span class="line">	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:196)</span><br><span class="line">	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)</span><br><span class="line">	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)</span><br><span class="line">	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)</span><br><span class="line">	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)</span><br><span class="line">	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)</span><br><span class="line">	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)</span><br><span class="line">	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:340)</span><br><span class="line">	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)</span><br><span class="line">	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)</span><br><span class="line">	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)</span><br><span class="line">	at com.johndoeo.demo.SpringbootEsDemoApplication.main(SpringbootEsDemoApplication.java:11)</span><br><span class="line">Disconnected from the target VM, address: &apos;127.0.0.1:56695&apos;, transport: &apos;socket&apos;</span><br><span class="line">11:04:00.462 [main] ERROR o.s.b.SpringApplication - [reportFailure,821] - Application run failed</span><br><span class="line">java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: </span><br><span class="line">ERROR in ch.qos.logback.core.joran.spi.Interpreter@3:82 - no applicable action for [springProperty], current ElementPath  is [[configuration][springProperty]]</span><br><span class="line">	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:291)</span><br><span class="line">	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:254)</span><br><span class="line">	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:219)</span><br><span class="line">	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:196)</span><br><span class="line">	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)</span><br><span class="line">	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)</span><br><span class="line">	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)</span><br><span class="line">	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)</span><br><span class="line">	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)</span><br><span class="line">	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)</span><br><span class="line">	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:340)</span><br><span class="line">	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)</span><br><span class="line">	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)</span><br><span class="line">	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)</span><br><span class="line">	at com.johndoeo.demo.SpringbootEsDemoApplication.main(SpringbootEsDemoApplication.java:11)</span><br><span class="line">Caused by: java.lang.IllegalStateException: Logback configuration error detected: </span><br><span class="line">ERROR in ch.qos.logback.core.joran.spi.Interpreter@3:82 - no applicable action for [springProperty], current ElementPath  is [[configuration][springProperty]]</span><br><span class="line">	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:166)</span><br><span class="line">	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:65)</span><br><span class="line">	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:56)</span><br><span class="line">	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)</span><br><span class="line">	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:284)</span><br><span class="line">	... 14 common frames omitted</span><br><span class="line">Exception in thread &quot;main&quot; java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: </span><br><span class="line">ERROR in ch.qos.logback.core.joran.spi.Interpreter@3:82 - no applicable action for [springProperty], current ElementPath  is [[configuration][springProperty]]</span><br><span class="line">	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:291)</span><br><span class="line">	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:254)</span><br><span class="line">	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:219)</span><br><span class="line">	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:196)</span><br><span class="line">	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)</span><br><span class="line">	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)</span><br><span class="line">	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)</span><br><span class="line">	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)</span><br><span class="line">	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)</span><br><span class="line">	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)</span><br><span class="line">	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:340)</span><br><span class="line">	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)</span><br><span class="line">	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)</span><br><span class="line">	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)</span><br><span class="line">	at com.johndoeo.demo.SpringbootEsDemoApplication.main(SpringbootEsDemoApplication.java:11)</span><br><span class="line">Caused by: java.lang.IllegalStateException: Logback configuration error detected: </span><br><span class="line">ERROR in ch.qos.logback.core.joran.spi.Interpreter@3:82 - no applicable action for [springProperty], current ElementPath  is [[configuration][springProperty]]</span><br><span class="line">	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:166)</span><br><span class="line">	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:65)</span><br><span class="line">	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:56)</span><br><span class="line">	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)</span><br><span class="line">	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:284)</span><br><span class="line">	... 14 more</span><br></pre></td></tr></table></figure>
+<p>可以看到这里是logback.xml文件的问题，我的logback.xml内容如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span><br><span class="line">&lt;configuration&gt;</span><br><span class="line">    &lt;springProperty scope=&quot;context&quot; name=&quot;log.path&quot; source=&quot;logging.exportPath&quot;/&gt;</span><br><span class="line">	&lt;property name=&quot;log.pattern&quot; value=&quot;%d&#123;HH:mm:ss.SSS&#125; [%thread] %-5level %logger&#123;20&#125; - [%method,%line] - %msg%n&quot; /&gt;</span><br><span class="line"></span><br><span class="line">	&lt;!-- 控制台输出 --&gt;</span><br><span class="line">	&lt;appender name=&quot;console&quot; class=&quot;ch.qos.logback.core.ConsoleAppender&quot;&gt;</span><br><span class="line">		&lt;encoder&gt;</span><br><span class="line">			&lt;pattern&gt;$&#123;log.pattern&#125;&lt;/pattern&gt;</span><br><span class="line">		&lt;/encoder&gt;</span><br><span class="line">	&lt;/appender&gt;</span><br><span class="line"></span><br><span class="line">	&lt;!-- 系统日志输出 --&gt;</span><br><span class="line">	&lt;appender name=&quot;file_info&quot; class=&quot;ch.qos.logback.core.rolling.RollingFileAppender&quot;&gt;</span><br><span class="line">	    &lt;file&gt;$&#123;log.path&#125;/sys-info.log&lt;/file&gt;</span><br><span class="line">		&lt;rollingPolicy class=&quot;ch.qos.logback.core.rolling.TimeBasedRollingPolicy&quot;&gt;</span><br><span class="line">			&lt;!-- 按天回滚 daily --&gt;</span><br><span class="line">			&lt;fileNamePattern&gt;$&#123;log.path&#125;/sys-info.%d&#123;yyyy-MM-dd&#125;.log&lt;/fileNamePattern&gt;</span><br><span class="line">			&lt;!-- 日志最大的历史 60天 --&gt;</span><br><span class="line">			&lt;maxHistory&gt;60&lt;/maxHistory&gt;</span><br><span class="line">		&lt;/rollingPolicy&gt;</span><br><span class="line">		&lt;encoder&gt;</span><br><span class="line">			&lt;pattern&gt;$&#123;log.pattern&#125;&lt;/pattern&gt;</span><br><span class="line">		&lt;/encoder&gt;</span><br><span class="line">		&lt;filter class=&quot;ch.qos.logback.classic.filter.LevelFilter&quot;&gt;</span><br><span class="line">            &lt;level&gt;INFO&lt;/level&gt;</span><br><span class="line">            &lt;onMatch&gt;ACCEPT&lt;/onMatch&gt;</span><br><span class="line">            &lt;onMismatch&gt;DENY&lt;/onMismatch&gt;</span><br><span class="line">        &lt;/filter&gt;</span><br><span class="line">	&lt;/appender&gt;</span><br><span class="line"></span><br><span class="line">	&lt;appender name=&quot;file_error&quot; class=&quot;ch.qos.logback.core.rolling.RollingFileAppender&quot;&gt;</span><br><span class="line">	    &lt;file&gt;$&#123;log.path&#125;/sys-error.log&lt;/file&gt;</span><br><span class="line">        &lt;rollingPolicy class=&quot;ch.qos.logback.core.rolling.TimeBasedRollingPolicy&quot;&gt;</span><br><span class="line">            &lt;fileNamePattern&gt;$&#123;log.path&#125;/sys-error.%d&#123;yyyy-MM-dd&#125;.log&lt;/fileNamePattern&gt;</span><br><span class="line">			&lt;!-- 日志最大的历史 60天 --&gt;</span><br><span class="line">			&lt;maxHistory&gt;60&lt;/maxHistory&gt;</span><br><span class="line">        &lt;/rollingPolicy&gt;</span><br><span class="line">        &lt;encoder&gt;</span><br><span class="line">            &lt;pattern&gt;$&#123;log.pattern&#125;&lt;/pattern&gt;</span><br><span class="line">        &lt;/encoder&gt;</span><br><span class="line">        &lt;filter class=&quot;ch.qos.logback.classic.filter.LevelFilter&quot;&gt;</span><br><span class="line">            &lt;level&gt;ERROR&lt;/level&gt;</span><br><span class="line">            &lt;onMatch&gt;ACCEPT&lt;/onMatch&gt;</span><br><span class="line">            &lt;onMismatch&gt;DENY&lt;/onMismatch&gt;</span><br><span class="line">        &lt;/filter&gt;</span><br><span class="line">    &lt;/appender&gt;</span><br><span class="line"></span><br><span class="line">	&lt;!-- 用户访问日志输出  --&gt;</span><br><span class="line">    &lt;appender name=&quot;sys-user&quot; class=&quot;ch.qos.logback.core.rolling.RollingFileAppender&quot;&gt;</span><br><span class="line">		&lt;file&gt;$&#123;log.path&#125;/sys-user.log&lt;/file&gt;</span><br><span class="line">        &lt;rollingPolicy class=&quot;ch.qos.logback.core.rolling.TimeBasedRollingPolicy&quot;&gt;</span><br><span class="line">            &lt;!-- 按天回滚 daily --&gt;</span><br><span class="line">            &lt;fileNamePattern&gt;$&#123;log.path&#125;/sys-user.%d&#123;yyyy-MM-dd&#125;.log&lt;/fileNamePattern&gt;</span><br><span class="line">            &lt;!-- 日志最大的历史 60天 --&gt;</span><br><span class="line">            &lt;maxHistory&gt;60&lt;/maxHistory&gt;</span><br><span class="line">        &lt;/rollingPolicy&gt;</span><br><span class="line">        &lt;encoder&gt;</span><br><span class="line">            &lt;pattern&gt;$&#123;log.pattern&#125;&lt;/pattern&gt;</span><br><span class="line">        &lt;/encoder&gt;</span><br><span class="line">    &lt;/appender&gt;</span><br><span class="line"></span><br><span class="line">	&lt;!-- 显示形成的sql、使用的参数、结果集 --&gt;</span><br><span class="line">	&lt;!--</span><br><span class="line">		&lt;logger name=&quot;java.sql&quot; level=&quot;debug&quot; /&gt;</span><br><span class="line">		&lt;logger name=&quot;org.springframework.jdbc&quot; level=&quot;debug&quot; /&gt;</span><br><span class="line">	--&gt;</span><br><span class="line"></span><br><span class="line">	&lt;logger name=&quot;com.paamp&quot; level=&quot;info&quot; /&gt;</span><br><span class="line"></span><br><span class="line">	&lt;root level=&quot;info&quot;&gt;</span><br><span class="line">		&lt;appender-ref ref=&quot;console&quot; /&gt;</span><br><span class="line">	&lt;/root&gt;</span><br><span class="line"></span><br><span class="line">	&lt;!--系统操作日志--&gt;</span><br><span class="line">    &lt;root level=&quot;info&quot;&gt;</span><br><span class="line">        &lt;appender-ref ref=&quot;file_info&quot; /&gt;</span><br><span class="line">        &lt;appender-ref ref=&quot;file_error&quot; /&gt;</span><br><span class="line">    &lt;/root&gt;</span><br><span class="line"></span><br><span class="line">	&lt;!--系统用户操作日志--&gt;</span><br><span class="line">    &lt;logger name=&quot;sys-user&quot; level=&quot;info&quot;&gt;</span><br><span class="line">        &lt;appender-ref ref=&quot;sys-user&quot;/&gt;</span><br><span class="line">    &lt;/logger&gt;</span><br><span class="line">&lt;/configuration&gt;</span><br></pre></td></tr></table></figure>
+<p>可以看到我的这个配置文件中使用了springProperty 标签动态加载了application.yml中的配置项，而在官网上发现如果logback的配置文件名为logback.xml时会先加载logback的配置文件，而改成logback-spring.xml就会先加载application.yml，所以这里把logback.xml文件名改为logback-spring.xml</p>
+<p>ok，重新启动项目</p>
+<p>然后又报了以下的错误：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">11:09:46.681 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - </span><br><span class="line"></span><br><span class="line">***************************</span><br><span class="line">APPLICATION FAILED TO START</span><br><span class="line">***************************</span><br><span class="line"></span><br><span class="line">Description:</span><br><span class="line"></span><br><span class="line">Failed to configure a DataSource: &apos;url&apos; attribute is not specified and no embedded datasource could be configured.</span><br><span class="line"></span><br><span class="line">Reason: Failed to determine a suitable driver class</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Action:</span><br><span class="line"></span><br><span class="line">Consider the following:</span><br><span class="line">Disconnected from the target VM, address: &apos;127.0.0.1:56796&apos;, transport: &apos;socket&apos;</span><br><span class="line">	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.</span><br><span class="line">	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Process finished with exit code 1</span><br></pre></td></tr></table></figure>
+<p>从错误提示信息中可以看出来，这里的错误是springboot的自动配置找不到配置文件中的database.url的配置项，知道了报错的原因就好解决了，这里可以直接在启动类注解中添加一个属性exclude = {DataSourceAutoConfiguration.class}，最后的启动类SpringbootEsDemoApplication.java如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">package com.johndoeo.demo;</span><br><span class="line"></span><br><span class="line">import org.springframework.boot.SpringApplication;</span><br><span class="line">import org.springframework.boot.autoconfigure.SpringBootApplication;</span><br><span class="line">import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;</span><br><span class="line"></span><br><span class="line">@SpringBootApplication(exclude = &#123;DataSourceAutoConfiguration.class&#125;)</span><br><span class="line">    public class SpringbootEsDemoApplication &#123;</span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        SpringApplication.run(SpringbootEsDemoApplication.class, args);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这里是为了排除数据源的自动化配置，然后再次启动项目<br>这次终于启动成功了，可是当我通过浏览器访问 <a href="http://localhost:8080/hello的时候页面无法访问到，页面出错：" target="_blank" rel="noopener">http://localhost:8080/hello的时候页面无法访问到，页面出错：</a><br>Whitelabel Error Page<br>This application has no explicit mapping for /error, so you are seeing this as a fallback.</p>
+<p>Wed Jul 03 11:15:02 CST 2019<br>There was an unexpected error (type=Not Found, status=404).<br>No message available</p>
+<p>这个问题的出现可能是以下三种可能：<br>（1）springboot启动类和controller类位置关系问题导致项目无法扫描到controller（但是我的项目中启动类和controller包同级）<br>（2）可能是哪个controller文件没有注入或注入错误（但是我的项目中应该是没有问题的）<br>（3）请求路径错误（这个更不可能了，我检查了好几次）</p>
+<p>另外，浏览器访问这个路径的时候debug可以进入到controller中，但是返回后页面就是无法接收到返回的字符串（不知道是不是因为服务器自动把字符串当成一个页面进行加载了）</p>
+<p><strong>终于解决这个问题了：在controller的要返回字符串的方法上添加注解@ResponseBody就可以了</strong></p>
+<p>项目源码：<a href="https://github.com/JohnDoeo/springboot-learn/tree/master/springboot-es-demo" target="_blank" rel="noopener">https://github.com/JohnDoeo/springboot-learn/tree/master/springboot-es-demo</a></p>
 
       
     </div>
@@ -582,15 +585,15 @@ var _hmt = _hmt || [];
   </li>
   <li class="post-copyright-publish">
       <strong>发布时间：</strong>
-      2019年02月25日 - 15:21
+      2019年07月08日 - 17:19
   </li>
   <li class="post-copyright-update">
       <strong>最后更新：</strong>
-      2019年02月25日 - 23:21
+      2019年07月08日 - 17:22
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://johndoeo.github.io/photos/index.html" title="相册">https://johndoeo.github.io/photos/index.html</a>
+    <a href="https://johndoeo.github.io/2019/07/09/springboot-elasticsearch-mybatis-mysql（一：简单整合）/" title="springboot+elasticsearch+mybatis+mysql（一：简单整合）">https://johndoeo.github.io/2019/07/09/springboot-elasticsearch-mybatis-mysql（一：简单整合）/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -608,6 +611,26 @@ var _hmt = _hmt || [];
       
       
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/07/08/markdown基本语法/" rel="next" title="markdown基本语法">
+                <i class="fa fa-chevron-left"></i> markdown基本语法
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/07/09/springboot-elasticsearch-mybatis-mysql（二：mysql数据全量-增量同步到es）/" rel="prev" title="springboot+elasticsearch+mybatis+mysql（二：mysql数据全量/增量同步到es）">
+                springboot+elasticsearch+mybatis+mysql（二：mysql数据全量/增量同步到es） <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
